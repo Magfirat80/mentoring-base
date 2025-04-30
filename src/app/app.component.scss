@@ -1,0 +1,116 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: white;
+    background-color: #4B565E;
+    padding: 0 240px;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    margin-right: 20px;
+}
+.header-nav {
+    display: flex;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-nav-item {
+    margin-right: 30px;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.logo-phone {
+    margin-right: 7px;
+}
+.number-phone {
+    margin-right: 40px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heart {
+    margin-right: 50px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    color: #f0ba4e;
+    border: solid; border-radius: 30px;
+}
+.recycled {
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.empty {
+    align-items: center;
+    margin-left: 10px;
+    color: white;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header-2 {
+    height: 48px;
+    color: black;
+    background-color: #f0ba4e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 240px;
+}
+.header-2-left {
+display: flex;    
+align-items: center;
+font-style: normal;
+font-family: Arial, Helvetica, sans-serif;
+}
+.header-2-logo {
+    margin-right: 10px;
+}
+.header-2-nav {
+    display: flex;
+}
+.header-2-nav-item {
+margin-right: 20px;
+}
+.header-2-right {
+    display: flex;
+    align-items: center;
+}
+.search {
+    background-color: #f0ba4e;
+    width: 360px;
+    height: 28px;
+}
+input {
+    background: transparent;
+    width: 360px;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid #444;
+}
+.logo-search {
+    padding-left: 10px;
+}
+
+
+.logo-loc {
+    margin-left: 35px;
+}
+.city {
+    margin-left: 10px;
+    color: white;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
