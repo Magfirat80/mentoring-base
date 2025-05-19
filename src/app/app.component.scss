@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -19,7 +23,6 @@
 
 .header-nav-it, .number-phone {
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
     color: #f9fafb;
     text-decoration: none;
@@ -27,7 +30,6 @@
 
 .header-2-nav-it {
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
     color:#000000;
     text-decoration: none;
@@ -45,14 +47,13 @@
 .number-phone {
     margin-right: 40px;
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .heart {
     margin-right: 50px;
 }
 
-.button {
+.button_recycled {
     display: flex;
     align-items: center;
     height: 40px;
@@ -72,7 +73,6 @@
     margin-left: 10px;
     color: #ffffff;
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-2 {
@@ -89,11 +89,20 @@
     display: flex;    
     align-items: center;
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-2-logo {
     margin-right: 10px;
+}
+
+.button_5 {
+    border: none;
+    background-color: #f0ba4e;
+    padding: 5px 10px;
+}
+
+.button_5:hover {
+    background-color: #f4c058;
 }
 
 .header-2-nav-item {
@@ -126,5 +135,4 @@
     margin-left: 10px;
     color: #ffffff;
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
 }
