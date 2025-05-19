@@ -1,0 +1,138 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: #ffffff;
+    background-color: #4B565E;
+    padding: 0px 240px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 20px;
+}
+
+.header-nav-it, .number-phone {
+    font-style: normal;
+    margin: 10px;
+    color: #f9fafb;
+    text-decoration: none;
+}
+
+.header-2-nav-it {
+    font-style: normal;
+    margin: 10px;
+    color:#000000;
+    text-decoration: none;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo-phone {
+    margin-right: 7px;
+}
+
+.number-phone {
+    margin-right: 40px;
+    font-style: normal;
+}
+
+.heart {
+    margin-right: 50px;
+}
+
+.button_recycled {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    color: #f0ba4e;
+    border: solid; border-radius: 30px;
+}
+
+.recycled {
+    align-items: center;
+    margin-left: 10px;
+}
+
+.empty {
+    align-items: center;
+    margin-left: 10px;
+    color: #ffffff;
+    font-style: normal;
+}
+
+.header-2 {
+    height: 48px;
+    color: #000000;
+    background-color: #f0ba4e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 240px;
+}
+
+.header-2-left {
+    display: flex;    
+    align-items: center;
+    font-style: normal;
+}
+
+.header-2-logo {
+    margin-right: 10px;
+}
+
+.button_5 {
+    border: none;
+    background-color: #f0ba4e;
+    padding: 5px 10px;
+}
+
+.button_5:hover {
+    background-color: #f4c058;
+}
+
+.header-2-nav-item {
+    margin-right: 20px;
+}
+
+.header-2-right {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    background-color: #f0ba4e;
+    background: transparent;
+    width: 360px;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid #444;
+}
+
+.logo-search {
+    padding-left: 10px;
+}
+ 
+.logo-loc {
+    margin-left: 35px ;
+}
+
+.city {
+    margin-left: 10px;
+    color: #ffffff;
+    font-style: normal;
+}
